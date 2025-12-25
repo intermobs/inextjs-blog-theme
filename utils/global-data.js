@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'WAY TRUTH AND LIFE TABERNACLE';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : WTLT';
+    : 'WTLT';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved. WTLT';
