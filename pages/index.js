@@ -18,7 +18,7 @@ export default function Index({ posts, globalData }) {
           {globalData.blogTitle}
         </h1>
   <h2 className="text-2xl md:text-3xl" data-sb-field-path="title">
-                   {globalData.blogBody}
+                   {globalData.blogTitle}
                 </h2>
          
   
