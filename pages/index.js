@@ -17,9 +17,11 @@ export default function Index({ posts, globalData }) {
         <h1 className="mb-12 text-3xl text-center lg:text-5xl">
           {globalData.blogTitle}
         </h1>
-  <p>
-          {globalData.blogBody}
-  </p>
+  <h2 className="text-2xl md:text-3xl" data-sb-field-path="title">
+                   {globalData.blogBody}
+                </h2>
+         
+  
         <ul className="w-full">
           {posts.map((post) => (
             <li
